@@ -1,0 +1,15 @@
+sifre = {
+            "ŞİFRE1": "123456 ",
+            "ŞİFRE2": "958334594",
+            "ŞİFRE3": "9876543234567"
+            }
+
+suu = random.randit(1,2,3)
+
+
+
+word = input("şifre 1 2 ve ya 3  yazın (hepsini büyük harflerle yazın!): ") 
+if word in sifre.keys():
+    print suu
+else:
+    bu kadar sifre yok
